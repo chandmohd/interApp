@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/Blue">
+
+        <TextView
+            android:id="@+id/languages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_marginTop="@dimen/slide_title"
+            android:text="Languages"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/experiance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/slide_title"
+            android:layout_marginTop="@dimen/slide_title"
+            android:text="Experiance"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/languages"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_marginTop="10dp"
+            android:text="Java"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/lan_yr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/experiance"
+            android:layout_marginRight="@dimen/slide_title"
+            android:layout_marginTop="10dp"
+            android:text="1yr 6mon"
+            android:textColor="@color/black" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

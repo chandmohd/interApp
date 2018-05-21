@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue">
+
+        <TextView
+            android:id="@+id/txt_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/slide_desc"
+            android:text="Application Successful"
+            android:textColor="@color/white"
+            android:textSize="@dimen/slide_desc" />
+
+        <ImageView
+            android:id="@+id/close_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/slide_desc"
+            android:src="@mipmap/close" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/bookMarked"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/layout_header"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/slide_title"
+        android:src="@mipmap/checked" />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookMarked"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/slide_title"
+        android:layout_marginTop="@dimen/slide_desc"
+        android:text="@string/dialog_sent"
+        android:textAlignment="center"
+        android:textSize="@dimen/slide_title" />
+
+</RelativeLayout>

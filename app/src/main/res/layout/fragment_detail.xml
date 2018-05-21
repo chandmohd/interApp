@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue">
+
+    <ImageView
+        android:id="@+id/edit_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:background="@color/lightBlue"
+        android:src="@mipmap/edit" />
+
+    <TextView
+        android:id="@+id/txt_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/edit_01"
+        android:text="Edit"
+        android:textColor="@color/lightBlue" />
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_01"
+        android:layout_marginLeft="@dimen/slide_title"
+        android:layout_marginTop="@dimen/slide_desc"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle">
+
+        <TableRow
+            android:id="@+id/first_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="First Name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="Sally"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/third_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Address Line 1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="40 Monkstown Valley"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/forth_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Address Line 2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="Monkstown"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fifth_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Town"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="Dublin"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/sixth_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Country"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="Dublin"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/second_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Phone Number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="08045566325"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/edit_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/table_layout"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="@dimen/slide_title"
+        android:background="@color/lightBlue"
+        android:src="@mipmap/edit" />
+
+    <TextView
+        android:id="@+id/txt_edit_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table_layout"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="@dimen/slide_title"
+        android:layout_toLeftOf="@+id/edit_02"
+        android:text="Edit"
+        android:textColor="@color/lightBlue" />
+
+    <TableLayout
+        android:id="@+id/table_layout_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_edit_02"
+        android:layout_marginLeft="@dimen/slide_title"
+        android:layout_marginTop="@dimen/slide_desc"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle">
+
+        <TableRow
+            android:id="@+id/row_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="abc@example.com"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_RepeatEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Confirm Email"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="abc@example.com"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

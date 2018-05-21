@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/Blue">
+
+    <RelativeLayout
+        android:id="@+id/innobles_exp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/slide_title">
+
+        <ImageView
+            android:id="@+id/innobles_logo"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:src="@drawable/innobles_logo" />
+
+        <TextView
+            android:id="@+id/inno_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/innobles_logo"
+            android:text="Associate Software Engineer"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inno_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inno_position"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_toRightOf="@+id/innobles_logo"
+            android:text="@string/company_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inno_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inno_name"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_toRightOf="@+id/innobles_logo"
+            android:text="@string/inno_duration"
+            android:textColor="@color/lighter" />
+
+        <TextView
+            android:id="@+id/inno_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inno_duration"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_toRightOf="@+id/innobles_logo"
+            android:text="@string/inno_place"
+            android:textColor="@color/lighter" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emids_exp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/innobles_exp"
+        android:layout_marginTop="@dimen/slide_title">
+
+        <ImageView
+            android:id="@+id/emids_logo"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/emids" />
+
+        <TextView
+            android:id="@+id/emids_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/emids_logo"
+            android:text="Trainee Software Engineer"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emids_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emids_position"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_toRightOf="@+id/emids_logo"
+            android:text="@string/emids_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emids_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emids_name"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_toRightOf="@+id/emids_logo"
+            android:text="@string/emids_duration"
+            android:textColor="@color/lighter" />
+
+        <TextView
+            android:id="@+id/emids_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emids_duration"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_toRightOf="@+id/emids_logo"
+            android:text="@string/emids_place"
+            android:textColor="@color/lighter" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

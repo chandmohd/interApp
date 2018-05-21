@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_details"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/slide_title"
+            android:layout_marginTop="@dimen/slide_title"
+            android:clickable="true"
+            android:drawableTop="@mipmap/details"
+            android:paddingTop="@dimen/slide_desc"
+            android:text="DETAILS"
+            android:textColor="@color/darkBlue"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_education"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/slide_title"
+            android:clickable="true"
+            android:drawableTop="@mipmap/education"
+            android:text="@string/education"
+            android:textColor="@color/darkBlue"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_experience"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/slide_title"
+            android:layout_marginTop="@dimen/slide_title"
+            android:clickable="true"
+            android:drawableTop="@mipmap/experience"
+            android:text="@string/experiance"
+            android:textColor="@color/darkBlue"
+            android:textSize="12dp" />
+
+        <FrameLayout
+            android:id="@+id/rl_replace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_experience"
+            android:layout_marginTop="@dimen/slide_title"></FrameLayout>
+
+        <Button
+            android:layout_marginTop="@dimen/slide_title"
+            android:id="@+id/btn_apply_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rl_replace"
+            android:layout_marginLeft="@dimen/slide_desc"
+            android:layout_marginBottom="@dimen/slide_desc"
+            android:background="@drawable/apply_button"
+            android:text="apply"
+            android:textColor="@color/darkBlue"
+            android:clickable="true"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rl_replace"
+            android:layout_marginTop="@dimen/slide_title"
+            android:layout_marginRight="@dimen/slide_desc"
+            android:layout_marginBottom="@dimen/slide_desc"
+            android:background="@drawable/apply_button"
+            android:text="cancel"
+            android:textColor="@color/darkBlue"
+            android:clickable="true"/>
+    </RelativeLayout>
+
+
+</ScrollView>

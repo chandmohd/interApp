@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue">
+
+    <ImageView
+        android:id="@+id/edit_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:background="@color/lightBlue"
+        android:src="@mipmap/edit" />
+
+    <TextView
+        android:id="@+id/txt_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/edit_01"
+        android:text="Edit"
+        android:textColor="@color/lightBlue" />
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_01"
+        android:layout_marginLeft="@dimen/slide_title"
+        android:layout_marginTop="@dimen/slide_desc"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle">
+
+        <TableRow
+            android:id="@+id/first_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Company Name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="@string/company_info"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/third_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Positon"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="@string/positon"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/forth_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Duration"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="6 months (2015-2016)"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fifth_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_desc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:text="@string/description"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/slide_desc" />
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Blue">#E3F2FD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkGray">#BDBDBD</color>
+    <color name="lightBlue">#2196F3</color>
+    <color name="darkBlue">#311B92</color>
+    <color name="black">#212121</color>
+    <color name="lighter">#a09b9b</color>
+    <color name="lightGray">#F5F5F5</color>
+    <color name="lightBlu">#F5F5F5</color>
+
+
+    <color name="screen_one">#F44336</color>
+    <color name="screen_two">#2196F3</color>
+
+    <color name="dot_dark_Screen1">#C62828</color>
+    <color name="dot_dark_Screen2">#0D47A1</color>
+
+    <color name="dot_light_screen1">#E57373</color>
+    <color name="dot_light_screen2">#90CAF9</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="darkYellow">#FFEA00</color>
+    <color name="text_color_light">#757575</color>
+
+    <array name="dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+    </array>
+
+    <array name="dot_InActive">
+        <item>@color/dot_dark_Screen1</item>
+        <item>@color/dot_dark_Screen2</item>
+    </array>
+
+</resources>

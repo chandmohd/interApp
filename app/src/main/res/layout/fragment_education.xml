@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/Blue"
+        android:paddingLeft="@dimen/slide_title">
+
+        <RelativeLayout
+            android:id="@+id/be_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/be_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016"
+                android:textSize="@dimen/slide_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/college"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/slide_title"
+                android:layout_toRightOf="@+id/be_year"
+                android:text="SKIT,Banglore"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/college"
+                android:layout_marginLeft="@dimen/slide_title"
+                android:layout_toRightOf="@+id/be_year"
+                android:text="@string/course_detail"
+                android:textColor="@color/lighter"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/th12_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/be_details"
+            android:layout_marginTop="@dimen/slide_title">
+
+            <TextView
+                android:id="@+id/th12_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2012"
+                android:textSize="@dimen/slide_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/th12_college"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/slide_title"
+                android:layout_toRightOf="@+id/th12_year"
+                android:text="SLIC,Rampur"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/th12_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/th12_college"
+                android:layout_marginLeft="@dimen/slide_title"
+                android:layout_toRightOf="@id/th12_year"
+                android:text="@string/th12_details"
+                android:textColor="@color/lighter"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/school_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/th12_detail"
+            android:layout_marginTop="@dimen/slide_title">
+
+            <TextView
+                android:id="@+id/scl_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2010"
+                android:textSize="@dimen/slide_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scl_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/slide_title"
+                android:layout_toRightOf="@+id/scl_year"
+                android:text="SRHS,Tanda"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scl_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scl_school"
+                android:layout_marginLeft="@dimen/slide_title"
+                android:layout_toRightOf="@id/scl_year"
+                android:text="@string/school_details"
+                android:textColor="@color/lighter"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
